@@ -23,6 +23,7 @@
 .row {
     background-color: brown;
     height: 300px;
+    padding: 20px;
 }
 
 .col {
@@ -51,14 +52,34 @@
     background-color: white;
 }
 
+.main_grigio {
+    background-color: lightgrey;
+}
+
 .big, .small {
     height: 200px;
     width: 80%;
 }
 
+section {
+    padding-bottom: 2rem;
+}
+
+.a {
+    width: 40%;
+}
+
+.b {
+    width: 15%;
+    margin-left: 5px;
+}
+
+
+
 
 
 /* fine regole generali*/
+
 
 .nav{
     height: 20px;
@@ -78,7 +99,7 @@ nav {
 }
 
 
-nav, .main_bianco {
+nav, .main_bianco, .main_grigio {
     padding-top: 1rem;
 }
 
@@ -111,20 +132,28 @@ nav, .main_bianco {
 
 /*fine header*/
 
-
-.primo {
-    padding: 20px;
+footer {
+    background-color: blue;
 }
 
-.ultima_sezione_main {
-    padding-top: 8rem;
-
+.riga {
+    background-color: brown;
+    height: 300px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
+.linea {
+    background-color: brown;
+    height: 50px;
+    justify-content: space-between;
+}
 
-
-
-
+.finale {
+    height: 25px;
+    width: 70px;
+    background-color: green;
+}
 
 
 
