@@ -86,11 +86,12 @@ section {
 }
 
 .row_rosso {
-    background-color: red;
+    background-color: brown;
     height: 200px;
+    padding-top: 15px;
 }
 
-.debug {
+nav {
     background-color: red;
 }
 
@@ -98,10 +99,6 @@ nav {
     height: 50px;
 }
 
-
-nav, .main_bianco, .main_grigio {
-    padding-top: 1rem;
-}
 
 
 .left, .right {
@@ -125,9 +122,8 @@ nav, .main_bianco, .main_grigio {
 
 .blu {
     background-color: blue;
-    height: 100%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    height: 400px;
+    padding: 80px;
 }
 
 /*fine header*/
