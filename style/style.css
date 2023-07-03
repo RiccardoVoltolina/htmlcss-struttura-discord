@@ -34,6 +34,11 @@
     background-color: blue;
 }
 
+.grande, .piccola {
+    justify-content: center;
+    align-items: center;
+}
+
 .grande {
     width: 70%;
 }
@@ -46,10 +51,11 @@
     background-color: white;
 }
 
-.big {
-    height: 50%;
-    width: 50%;
+.big, .small {
+    height: 200px;
+    width: 80%;
 }
+
 
 
 /* fine regole generali*/
@@ -101,6 +107,11 @@ nav, .main_bianco {
 }
 
 /*fine header*/
+
+
+.primo {
+    padding: 20px;
+}
 
 
 
