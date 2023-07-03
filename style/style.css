@@ -17,7 +17,7 @@
 .giallo {
     background-color: yellow;
     height: 400px;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 .row {
@@ -114,6 +114,11 @@ nav, .main_bianco {
 
 .primo {
     padding: 20px;
+}
+
+.ultima_sezione_main {
+    padding-top: 8rem;
+
 }
 
 
