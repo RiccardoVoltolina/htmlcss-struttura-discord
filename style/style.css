@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex {
+    display: flex;
+}
+
+
+/* fine regole generali*/
+
+
+nav {
+    background-color: red;
+    height: 350px;
+    padding-top: 1rem;
+}
+
+.container_nav {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+    height: 50px;
+
+}
+
+
+.col {
+    height: 20px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.center {
+    width: 50%;
+}
+
+.contenitore_grigio {
+    width: 60%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.grigio {
+    background-color: gray;
+    height: 200px;
+}
+
+.blu {
+    background-color: blue;
+    height: 100%;
+    padding-top: 2rem;
+}
+
+/*fine header/*
+
+
