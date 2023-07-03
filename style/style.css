@@ -73,9 +73,12 @@
     background-color: red;
 }
 
+nav {
+    height: 50px;
+}
+
 
 nav, .main_bianco {
-    height: 50px;
     padding-top: 1rem;
 }
 
