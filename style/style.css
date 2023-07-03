@@ -8,30 +8,71 @@
     display: flex;
 }
 
-
-/* fine regole generali*/
-
-
-nav {
-    background-color: red;
-    height: 350px;
-    padding-top: 1rem;
-}
-
-.container_nav {
+.container {
     width: 80%;
     max-width: 1170px;
     margin: auto;
-    height: 50px;
-
 }
 
+.giallo {
+    background-color: yellow;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.row {
+    background-color: brown;
+    height: 300px;
+}
 
 .col {
-    height: 20px;
-    background-color: yellow;
+    background-color: green;
     border: 1px solid black;
 }
+
+.card {
+    background-color: blue;
+}
+
+.grande {
+    width: 70%;
+}
+
+.piccola {
+    width: 30%;
+}
+
+.main_bianco {
+    background-color: white;
+}
+
+.big {
+    height: 50%;
+    width: 50%;
+}
+
+
+/* fine regole generali*/
+
+.nav{
+    height: 20px;
+}
+
+.row_rosso {
+    background-color: red;
+    height: 200px;
+}
+
+.debug {
+    background-color: red;
+}
+
+
+nav, .main_bianco {
+    height: 50px;
+    padding-top: 1rem;
+}
+
 
 .left, .right {
     width: 25%;
@@ -56,8 +97,15 @@ nav {
     background-color: blue;
     height: 100%;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-/*fine header/*
+/*fine header*/
+
+
+
+
+
+
 
 
