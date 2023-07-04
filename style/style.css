@@ -36,8 +36,7 @@
 }
 
 .grande, .piccola {
-    justify-content: center;
-    align-items: center;
+    padding: 30px;
 }
 
 .grande {
@@ -56,9 +55,10 @@
     background-color: lightgrey;
 }
 
+
 .big, .small {
     height: 200px;
-    width: 80%;
+    width: 100%;
 }
 
 section {
